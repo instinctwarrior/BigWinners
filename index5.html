@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College Admission Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>BIGWINEERS</h1>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="index2.html">About Programming</a>
+      <a href="index3.html">Roadmap</a>
+      <a href="index4.html">Learn</a>
+      <a href="index5.html">Membership Form</a>
+      <a href="">Login/Signup</a>
+    </nav>
+    <br />
+    <hr />
+    <div class="container">
+      <form action="">
+          <h1 class="mainheading">Payment Form</h1>
+          <hr>
+      <h2>User Information</h2>
+        <p id="pd">Name *: <input type="text" name="name"  placeholder="Dhruv Patel" id="name" required /></p>
+        <fieldset>
+          <legend>Gender</legend>
+          <p>
+            Male <input type="radio" name="gender" id="male" /> Female
+            <input type="radio" name="gender" id="female" />
+          </p>
+        </fieldset>
+        <p id="ac">
+          Permanent Address :
+          <textarea name="address" id="address" placeholder="Enter your Address" cols="10" rows="5"></textarea>
+        </p>   
+        <p id="ac">Email : <input type="email" placeholder="abc@gmail.com" name="email" id="" /></p>
+        <p id="ac">Pincode : <input type="number" name="pincode" id="" /></p>
+        
+           
+        <h2>Payment Information</h2>
+        <p id="ac">
+          Select Card type :
+          <select >
+            <option value="">---Select a Card---</option>
+            <option value="">Visa</option>
+            <option value="">Mastercard</option>
+            <option value="">Rupay</option>
+          </select>
+        </p>
+        <p id="ac">Card Number : <input type="number" placeholder="1111-2222-3333-4444" name="cardno" id="" /></p>
+        <p id="pd">Expiry Date : <input type="date" name="date" id="" /></p>
+        <p id="ac">
+          CVV :
+          <input type="password" placeholder="123" name="Password" id="password" />
+        </p>
+        <div class="button">
+          <input type="submit" value="Pay Now" />
+        </div>
+        
+      </form>
+  </div>
+  </body>
+</html>
